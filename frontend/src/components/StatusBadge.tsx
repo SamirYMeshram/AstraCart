@@ -1,0 +1,4 @@
+'use client';
+import { cn } from '@/lib/utils';
+const styles: Record<string,string> = { PAID:'border-emerald-300/25 bg-emerald-300/10 text-emerald-200', SUCCESS:'border-emerald-300/25 bg-emerald-300/10 text-emerald-200', DELIVERED:'border-sky-300/25 bg-sky-300/10 text-sky-200', SHIPPED:'border-indigo-300/25 bg-indigo-300/10 text-indigo-200', PENDING:'border-amber-300/25 bg-amber-300/10 text-amber-200', FAILED:'border-rose-300/25 bg-rose-300/10 text-rose-200', LOW_STOCK:'border-orange-300/25 bg-orange-300/10 text-orange-200', ACTIVE:'border-cyan-300/25 bg-cyan-300/10 text-cyan-200', REFUNDED:'border-fuchsia-300/25 bg-fuchsia-300/10 text-fuchsia-200' };
+export function StatusBadge({ status }: { status: string }) { return <span className={cn('inline-flex rounded-full border px-2.5 py-1 text-xs font-medium', styles[status] || 'border-slate-300/20 bg-slate-300/10 text-slate-200')}>{status.replaceAll('_',' ')}</span> }

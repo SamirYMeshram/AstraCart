@@ -1,0 +1,26 @@
+[
+  {
+    "email": "admin@astracart.dev",
+    "role": "ADMIN"
+  },
+  {
+    "email": "seller1@astracart.dev",
+    "role": "SELLER"
+  },
+  {
+    "email": "seller2@astracart.dev",
+    "role": "SELLER"
+  },
+  {
+    "email": "customer1@astracart.dev",
+    "role": "CUSTOMER"
+  },
+  {
+    "email": "customer2@astracart.dev",
+    "role": "CUSTOMER"
+  },
+  {
+    "email": "support@astracart.dev",
+    "role": "SUPPORT"
+  }
+]

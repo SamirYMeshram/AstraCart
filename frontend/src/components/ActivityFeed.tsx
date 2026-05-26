@@ -1,0 +1,2 @@
+import { activities } from '@/lib/mock-data';
+export function ActivityFeed(){ return <div className="space-y-3">{activities.map((a,i)=><div key={a} className="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[.04] p-3"><span className="grid h-8 w-8 place-items-center rounded-full bg-cyan-300/10 text-xs text-cyan-200">{i+1}</span><p className="text-sm text-slate-300">{a}</p></div>)}</div> }

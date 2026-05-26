@@ -1,0 +1,7 @@
+'use client';
+import { ProductTable } from '@/components/DataTable';
+import { GlassCard } from '@/components/GlassCard';
+import { Shell } from '@/components/Shell';
+import { InventoryChart, PaymentChart, RevenueChart } from '@/components/charts';
+import { products } from '@/lib/mock-data';
+export default function Analytics(){ return <Shell title="Analytics" subtitle="Revenue analytics, inventory trends, payment conversion and top-product intelligence for a startup demo room."><div className="grid gap-4 xl:grid-cols-[1.2fr_.8fr]"><GlassCard><h2 className="mb-4 text-xl font-semibold text-white">Revenue analytics</h2><RevenueChart/></GlassCard><GlassCard><h2 className="mb-4 text-xl font-semibold text-white">Payment analytics</h2><PaymentChart/></GlassCard></div><div className="mt-4 grid gap-4 xl:grid-cols-[.9fr_1.1fr]"><GlassCard><h2 className="mb-4 text-xl font-semibold text-white">Inventory area chart</h2><InventoryChart/></GlassCard><GlassCard><h2 className="mb-4 text-xl font-semibold text-white">Top products</h2><ProductTable products={products.slice(0,8)}/></GlassCard></div><GlassCard className="mt-4"><h2 className="mb-4 text-xl font-semibold text-white">Order conversion funnel</h2><div className="grid gap-3 md:grid-cols-5">{['Product view','Add to cart','Checkout','Payment success','Delivered'].map((s,i)=><div key={s} className="rounded-2xl border border-white/10 bg-white/[.04] p-4"><div className="text-2xl font-semibold text-white">{[100,64,42,37,31][i]}%</div><div className="text-sm text-slate-400">{s}</div></div>)}</div></GlassCard></Shell> }

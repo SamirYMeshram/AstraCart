@@ -1,0 +1,4 @@
+'use client';
+import { Cpu, MemoryStick } from 'lucide-react';
+import type { ServiceHealth } from '@/lib/types';
+export function ServiceHealthCard({ service }: { service: ServiceHealth }) { return <div className="rounded-3xl border border-white/10 bg-white/[.04] p-4"><div className="flex items-center justify-between"><div className="font-medium text-white">{service.name}</div><span className={`h-2.5 w-2.5 rounded-full ${service.healthy?'bg-emerald-300':'bg-rose-300'} shadow-glow`} /></div><div className="mt-3 text-xs text-slate-400">Latency {service.latency}</div><div className="mt-4 grid grid-cols-2 gap-2 text-xs text-slate-300"><div className="rounded-xl bg-white/[.04] p-2"><Cpu size={14}/> {service.cpu}%</div><div className="rounded-xl bg-white/[.04] p-2"><MemoryStick size={14}/> {service.memory}%</div></div></div> }

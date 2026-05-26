@@ -1,0 +1,13 @@
+from functools import lru_cache
+from pydantic_settings import BaseSettings
+class Settings(BaseSettings):
+    service_name: str = 'cart-service'
+    database_url: str = 'sqlite:///./carts.db'
+    product_service_url: str = 'http://product-service:8000'
+    redis_url: str = 'redis://redis:6379/0'
+    celery_broker_url: str = 'redis://redis:6379/1'
+    celery_result_backend: str = 'redis://redis:6379/2'
+    cors_origins: str = 'http://localhost:3000'
+    class Config: env_file = '.env'; extra = 'ignore'
+@lru_cache
+def get_settings(): return Settings()

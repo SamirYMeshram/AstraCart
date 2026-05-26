@@ -1,0 +1,252 @@
+[
+  {
+    "sku": "ASTRA-0001",
+    "title": "Astra Premium Product 1",
+    "stock_quantity": 2
+  },
+  {
+    "sku": "ASTRA-0002",
+    "title": "Astra Premium Product 2",
+    "stock_quantity": 4
+  },
+  {
+    "sku": "ASTRA-0003",
+    "title": "Astra Premium Product 3",
+    "stock_quantity": 8
+  },
+  {
+    "sku": "ASTRA-0004",
+    "title": "Astra Premium Product 4",
+    "stock_quantity": 12
+  },
+  {
+    "sku": "ASTRA-0005",
+    "title": "Astra Premium Product 5",
+    "stock_quantity": 25
+  },
+  {
+    "sku": "ASTRA-0006",
+    "title": "Astra Premium Product 6",
+    "stock_quantity": 0
+  },
+  {
+    "sku": "ASTRA-0007",
+    "title": "Astra Premium Product 7",
+    "stock_quantity": 2
+  },
+  {
+    "sku": "ASTRA-0008",
+    "title": "Astra Premium Product 8",
+    "stock_quantity": 4
+  },
+  {
+    "sku": "ASTRA-0009",
+    "title": "Astra Premium Product 9",
+    "stock_quantity": 8
+  },
+  {
+    "sku": "ASTRA-0010",
+    "title": "Astra Premium Product 10",
+    "stock_quantity": 12
+  },
+  {
+    "sku": "ASTRA-0011",
+    "title": "Astra Premium Product 11",
+    "stock_quantity": 25
+  },
+  {
+    "sku": "ASTRA-0012",
+    "title": "Astra Premium Product 12",
+    "stock_quantity": 0
+  },
+  {
+    "sku": "ASTRA-0013",
+    "title": "Astra Premium Product 13",
+    "stock_quantity": 2
+  },
+  {
+    "sku": "ASTRA-0014",
+    "title": "Astra Premium Product 14",
+    "stock_quantity": 4
+  },
+  {
+    "sku": "ASTRA-0015",
+    "title": "Astra Premium Product 15",
+    "stock_quantity": 8
+  },
+  {
+    "sku": "ASTRA-0016",
+    "title": "Astra Premium Product 16",
+    "stock_quantity": 12
+  },
+  {
+    "sku": "ASTRA-0017",
+    "title": "Astra Premium Product 17",
+    "stock_quantity": 25
+  },
+  {
+    "sku": "ASTRA-0018",
+    "title": "Astra Premium Product 18",
+    "stock_quantity": 0
+  },
+  {
+    "sku": "ASTRA-0019",
+    "title": "Astra Premium Product 19",
+    "stock_quantity": 2
+  },
+  {
+    "sku": "ASTRA-0020",
+    "title": "Astra Premium Product 20",
+    "stock_quantity": 4
+  },
+  {
+    "sku": "ASTRA-0021",
+    "title": "Astra Premium Product 21",
+    "stock_quantity": 8
+  },
+  {
+    "sku": "ASTRA-0022",
+    "title": "Astra Premium Product 22",
+    "stock_quantity": 12
+  },
+  {
+    "sku": "ASTRA-0023",
+    "title": "Astra Premium Product 23",
+    "stock_quantity": 25
+  },
+  {
+    "sku": "ASTRA-0024",
+    "title": "Astra Premium Product 24",
+    "stock_quantity": 0
+  },
+  {
+    "sku": "ASTRA-0025",
+    "title": "Astra Premium Product 25",
+    "stock_quantity": 2
+  },
+  {
+    "sku": "ASTRA-0026",
+    "title": "Astra Premium Product 26",
+    "stock_quantity": 4
+  },
+  {
+    "sku": "ASTRA-0027",
+    "title": "Astra Premium Product 27",
+    "stock_quantity": 8
+  },
+  {
+    "sku": "ASTRA-0028",
+    "title": "Astra Premium Product 28",
+    "stock_quantity": 12
+  },
+  {
+    "sku": "ASTRA-0029",
+    "title": "Astra Premium Product 29",
+    "stock_quantity": 25
+  },
+  {
+    "sku": "ASTRA-0030",
+    "title": "Astra Premium Product 30",
+    "stock_quantity": 0
+  },
+  {
+    "sku": "ASTRA-0031",
+    "title": "Astra Premium Product 31",
+    "stock_quantity": 2
+  },
+  {
+    "sku": "ASTRA-0032",
+    "title": "Astra Premium Product 32",
+    "stock_quantity": 4
+  },
+  {
+    "sku": "ASTRA-0033",
+    "title": "Astra Premium Product 33",
+    "stock_quantity": 8
+  },
+  {
+    "sku": "ASTRA-0034",
+    "title": "Astra Premium Product 34",
+    "stock_quantity": 12
+  },
+  {
+    "sku": "ASTRA-0035",
+    "title": "Astra Premium Product 35",
+    "stock_quantity": 25
+  },
+  {
+    "sku": "ASTRA-0036",
+    "title": "Astra Premium Product 36",
+    "stock_quantity": 0
+  },
+  {
+    "sku": "ASTRA-0037",
+    "title": "Astra Premium Product 37",
+    "stock_quantity": 2
+  },
+  {
+    "sku": "ASTRA-0038",
+    "title": "Astra Premium Product 38",
+    "stock_quantity": 4
+  },
+  {
+    "sku": "ASTRA-0039",
+    "title": "Astra Premium Product 39",
+    "stock_quantity": 8
+  },
+  {
+    "sku": "ASTRA-0040",
+    "title": "Astra Premium Product 40",
+    "stock_quantity": 12
+  },
+  {
+    "sku": "ASTRA-0041",
+    "title": "Astra Premium Product 41",
+    "stock_quantity": 25
+  },
+  {
+    "sku": "ASTRA-0042",
+    "title": "Astra Premium Product 42",
+    "stock_quantity": 0
+  },
+  {
+    "sku": "ASTRA-0043",
+    "title": "Astra Premium Product 43",
+    "stock_quantity": 2
+  },
+  {
+    "sku": "ASTRA-0044",
+    "title": "Astra Premium Product 44",
+    "stock_quantity": 4
+  },
+  {
+    "sku": "ASTRA-0045",
+    "title": "Astra Premium Product 45",
+    "stock_quantity": 8
+  },
+  {
+    "sku": "ASTRA-0046",
+    "title": "Astra Premium Product 46",
+    "stock_quantity": 12
+  },
+  {
+    "sku": "ASTRA-0047",
+    "title": "Astra Premium Product 47",
+    "stock_quantity": 25
+  },
+  {
+    "sku": "ASTRA-0048",
+    "title": "Astra Premium Product 48",
+    "stock_quantity": 0
+  },
+  {
+    "sku": "ASTRA-0049",
+    "title": "Astra Premium Product 49",
+    "stock_quantity": 2
+  },
+  {
+    "sku": "ASTRA-0050",
+    "title": "Astra Premium Product 50",
+    "stock_quantity": 4
+  }
+]
